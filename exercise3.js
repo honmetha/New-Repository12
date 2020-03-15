@@ -4,31 +4,26 @@
 let a = 'test';
 let b = true;
 const c = 789;
-const a = 'test2';
+a = 'test2';
 
 
 // Destructuring
-var person = {
+const person = {
     firstName : "John",
     lastName  : "Doe",
     age       : 50,
     eyeColor  : "blue"
 };
 
-var firstName = person.firstName;
-var lastName = person.lastName;
-var age = person.age;
-var eyeColor = person.eyeColor;
-
 let { firstName, lastName, age, eyeColor } = person;
 
 
 // Object properties
-var a = 'test';
-var b = true;
-var c = 789;
+const a = 'test';
+const b = true;
+const c = 789;
 
-var okObj = {
+const okObj = {
   a,
   b,
   c
@@ -36,16 +31,12 @@ var okObj = {
 
 
 // Template strings
-var message = "Hello " + firstName + " have I met you before? I think we met in " + city + " last summer no???";
-
 let message = `Hello ${firstName} have I met you before? I think we met in ${city} last summer no???`;
 
 
 // default arguments
 // default age to 10;
-function isValidAge(age=10) {
-    return age
-}
+const isValidAge = (age = 10) => age;
 
 
 // Symbol
