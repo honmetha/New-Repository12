@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Create = () => {
   return (
@@ -8,4 +8,4 @@ const Create = () => {
   )
 }
 
-export default Create;
+export default Create

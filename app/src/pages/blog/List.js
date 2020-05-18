@@ -1,12 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 const List = () => {
 
-  const data = [
-    {
-      
-    }
-  ]
+  const data = [{}]
 
   return (
     <div>
@@ -16,10 +12,10 @@ const List = () => {
             ID
           </th>
           <th>
-            Row
+            Class
           </th>
           <th>
-            createdDate
+            createdAt
           </th>
         </tr>
         <tr>
@@ -27,10 +23,10 @@ const List = () => {
             1
           </td>
           <td>
-            Row
+            3/3
           </td>
           <td>
-            createdDate
+            20th June 2020
           </td>
         </tr>
       </table>
@@ -38,4 +34,4 @@ const List = () => {
   )
 }
 
-export default List;
+export default List

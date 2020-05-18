@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Edit = () => {
   return (
@@ -8,4 +8,4 @@ const Edit = () => {
   )
 }
 
-export default Edit;
+export default Edit
