@@ -9,8 +9,8 @@ function App() {
     <BrowserRouter>
       <div>
         <nav>
-          <ul>
-            <li>
+          <ul style={{ listStyle: "none", display: "flex" }}>
+            <li style={{ paddingRight: "1rem" }}>
               <Link to="/">Home</Link>
             </li>
             <li>
