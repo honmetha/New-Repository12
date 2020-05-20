@@ -1,4 +1,5 @@
 import React from "react";
+import BlogList from './components/BlogList'
 
 const data = [
   {
@@ -21,22 +22,7 @@ const data = [
 const List = () => {
   return (
     <div>
-      <table>
-        <tr>
-          <th>ID</th>
-          <th>Name</th>
-          <th>Created date</th>
-        </tr>
-        {data.map((row) => {
-          return (
-            <tr>
-              <td>{row.id}</td>
-              <td>{row.name}</td>
-              <td>{row.createdDate.toString()}</td>
-            </tr>
-          );
-        })}
-      </table>
+      <BlogList data={data}/>
     </div>
   );
 };

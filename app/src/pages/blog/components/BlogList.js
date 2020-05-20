@@ -1,11 +1,24 @@
-import React from 'react'
+import React from "react";
 
-const BlogList = () => {
+const BlogList = ({ data = [] }) => {
   return (
-    <div>
-      BlogList
-    </div>
-  )
-}
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Created date</th>
+      </tr>
+      {data.map((row) => {
+        return (
+          <tr>
+            <td>{row.id}</td>
+            <td>{row.name}</td>
+            <td>{row.createdDate.toString()}</td>
+          </tr>
+        );
+      })}
+    </table>
+  );
+};
 
-export default BlogList
+export default BlogList;
