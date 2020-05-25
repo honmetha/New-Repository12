@@ -1,22 +1,28 @@
 import React from "react";
+import BlogList from "./components/BlogLIst";
 
-const data = [{}];
+const data = [
+  {
+    id: 1,
+    name: "Blog01",
+    createdAt: new Date(),
+  },
+  {
+    id: 2,
+    name: "Blog02",
+    createdAt: new Date(),
+  },
+  {
+    id: 3,
+    name: "Blog03",
+    createdAt: new Date(),
+  },
+];
 
 const List = () => {
   return (
     <div>
-      <table>
-        <tr>
-          <th>ID</th>
-          <th>Name</th>
-          <th>Created date</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>Hon</td>
-          <td>20 March 2020</td>
-        </tr>
-      </table>
+      <BlogList data={data} />
     </div>
   );
 };
