@@ -1,4 +1,5 @@
 import React from "react";
+import BlogList from "./components/BlogList";
 
 const data = [
   {
@@ -19,7 +20,11 @@ const data = [
 ];
 
 const List = () => {
-  return <div>List</div>;
+  return (
+    <div>
+      <BlogList data={data} />
+    </div>
+  );
 };
 
 export default List;
