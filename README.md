@@ -1,5 +1,9 @@
 # Asynchronous JavaScript
 
+<p float="left">
+  <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous"><img src="./chapter_12/public/js-logo.png" alt="JavaScript" width="150"></a>
+</p>
+
 ## 📖 Chapters
 
 1. What is Async JavaScript?
