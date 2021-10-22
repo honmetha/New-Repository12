@@ -1,5 +1,7 @@
 # Asynchronous JavaScript
 
+This is a part of The Net Ninja's [Modern JavaScript](https://www.udemy.com/course/modern-javascript-from-novice-to-ninja/) course.
+
 <p float="left">
   <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous"><img src="./chapter_12/public/js-logo.png" alt="JavaScript" width="150"></a>
 </p>
